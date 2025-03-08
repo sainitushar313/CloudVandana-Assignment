@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4fa9b8;
+}
+
+.card {
+    background: #acdee1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0f141a;
+}
+
+.name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #2d2929;
+}
+
+.designation {
+    color: #383333;
+    font-size: 1em;
+}
+
+.bio {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #615454;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    border-radius: 50px;
+    color: #1c4b65;
+    display: inline-block;
+    line-height: 52px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    margin: 15px 15px;
+    font-size: 22px;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
+
